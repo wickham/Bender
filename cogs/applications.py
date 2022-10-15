@@ -140,7 +140,8 @@ class applications(commands.Cog):
                     await member.remove_roles(denied)
             # message user
             title = "Congratulations!\n"
-            msg = """You've been __**accepted**__\nNOW GET OUT THERE MEAT BAG AND MAKE BENDER PROUD!\n\n
+            msg = """You've been __**accepted**__\nNOW GET OUT THERE MEAT BAG AND MAKE BENDER PROUD!\n
+                    It can take **up to 30 mins** for the server to sync changes.\n\n
                     Few Channels to Visit:\n
                     [👋・welcome](https://discord.gg/9VdHkjc5Vv)\n
                     [📜・table-of-contents](https://discord.com/channels/979545493577293824/1029181982783045646)\n
