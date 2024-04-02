@@ -1,14 +1,15 @@
 import json
 import requests
+import settings
 import discord
-from apikeys import *
+from constants import *
 
 
 def get_joke():
     url = "https://dad-jokes.p.rapidapi.com/random/joke"
 
     headers = {
-        "X-RapidAPI-Key": DADJOKESAPI,
+        "X-RapidAPI-Key": settings.DADJOKESAPI,
         "X-RapidAPI-Host": "dad-jokes.p.rapidapi.com",
     }
 
